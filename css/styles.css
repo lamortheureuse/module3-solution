@@ -28,6 +28,21 @@ body {
 	margin: 15px 15px 15px 10px;
 }
 
+#button-menu {
+	margin-top: 20px;
+}
+
+#button-menu li:hover, li:active {
+	background: #00FFFF;
+}
+
+.navbar-header #button-menu , .icon-bar {
+	border: 1px solid #00FFFF;
+}
+
+.navbar-header #button-menu {
+	color: #000;
+}
 
 
 
