@@ -2,7 +2,6 @@
 /* BASE STYLES */
 * {
 	box-sizing: border-box;
-	font-family: 'Raleway', sans-serif;
 }
 
 body {
@@ -32,8 +31,25 @@ body {
 	margin-top: 20px;
 }
 
-#button-menu li:hover, li:active {
+#menu123 a, a:link, a:visited, a:hover, a:active {
+	color: #000; 
+}
+
+#menu123 a:hover, a:active {
 	background: #00FFFF;
+}
+
+#menu123 ul {
+	margin-top: 0;
+	margin-bottom: 0;
+	background-color: #FFFF00;
+}
+#menu123 li {
+	border-bottom: 1px solid #00FFFF;
+	border-width: 50%;
+	text-align: center;
+	background-color: #FFFF00;
+	font-size: 1.2em;
 }
 
 .navbar-header #button-menu , .icon-bar {
@@ -44,10 +60,15 @@ body {
 	color: #000;
 }
 
+/* MAIN CONTENT */ 
 
+#menu-header {
+	margin: 20px 0 15px 0;
+	padding: 10px;
+}
 
 p, h3 {
-	margin: 0 5px;
+	margin: 0;
 }
 
 .menu {
@@ -63,14 +84,15 @@ p, h3 {
 .menu div p {
 	padding: 15px;
 	background-color: #000;
+	font-size: 1.2em;
 }
 
 .menu div p, h3 {
-	border: 1px solid white;
+
 }
 
-.menu div p.description {
-	padding-top: 35px;
+.menu div .description {
+	border: 1px solid white;
 }
 
 .menu div h3.food-label {
